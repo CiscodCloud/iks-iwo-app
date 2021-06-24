@@ -30,7 +30,7 @@ resource helm_release iwok8scollector {
   }
   set {
     name  = "targetName"
-    value = "rtp-iks-cluster-01"
+    value = var.ikswsname
   }
 }
 
